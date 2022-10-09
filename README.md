@@ -11,6 +11,8 @@ dependencies
 - cd into the frontend directory and run `npm install` to install node modules
 
 ## Running this Program
+- Create a .env file in the backend/ directory and paste the following: EMAIL_APP_PASSWORD="passwordGoesHere"
+- Replace passwordGoesHere with the correct password
 - Open a terminal then run `python manage.py migrate` from the backend/ directory 
 to create the sqlite database tables
 - In the same terminal run `python manage.py runserver` to run the Django server

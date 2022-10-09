@@ -100,7 +100,7 @@ function Profile() {
             </Form.Group>
 
             <Form.Group className='mb-3' controlId='formBasicPassword'>
-                <Form.Label className='ms-3 me-3'>City</Form.Label>
+                <Form.Label className='ms-3 me-3'>State</Form.Label>
                 <Form.Control
                     className='ms-3 me-3'
                     type='text' 
